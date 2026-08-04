@@ -43,6 +43,8 @@ allow mnld gps_pwr_device:chr_file rw_file_perms;
 allow mnld mnld_data_file:file create_file_perms;
 allow mnld mnld_data_file:fifo_file create_file_perms;
 allow mnld gps_emi_device:chr_file rw_file_perms;
+allow mnld gpsmdl_device:chr_file rw_file_perms;
+allow mnld gpsstrg_device:chr_file rw_file_perms;
 
 # Purpose : For init process
 allow mnld init:udp_socket rw_socket_perms_no_ioctl;
