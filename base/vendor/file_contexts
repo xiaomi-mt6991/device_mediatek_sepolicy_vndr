@@ -1460,3 +1460,6 @@
 
 # iSE app loader
 /(vendor|system/vendor)/bin/ise_apploader   u:object_r:ise_apploader_exec:s0
+
+# Uart
+/(vendor|system/vendor)/bin/uart_launcher u:object_r:uart_launcher_exec:s0
