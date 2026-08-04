@@ -535,6 +535,8 @@ genfscon sysfs /devices/platform/soc/10012000.dvfsrc/mtk-dvfsrc-devfreq/devfreq/
 genfscon sysfs /devices/platform/10012000.dvfsrc/mtk-dvfsrc-devfreq/devfreq/mtk-dvfsrc-devfreq     u:object_r:sysfs_dvfsrc_devfreq:s0
 genfscon sysfs /devices/platform/1c00f000.dvfsrc/mtk-dvfsrc-devfreq/devfreq/mtk-dvfsrc-devfreq     u:object_r:sysfs_dvfsrc_devfreq:s0
 genfscon sysfs /devices/platform/soc/1c00f000.dvfsrc/mtk-dvfsrc-devfreq/devfreq/mtk-dvfsrc-devfreq u:object_r:sysfs_dvfsrc_devfreq:s0
+genfscon sysfs /devices/platform/1c013000.dvfsrc/mtk-dvfsrc-devfreq/devfreq/mtk-dvfsrc-devfreq     u:object_r:sysfs_dvfsrc_devfreq:s0
+genfscon sysfs /devices/platform/soc/1c013000.dvfsrc/mtk-dvfsrc-devfreq/devfreq/mtk-dvfsrc-devfreq u:object_r:sysfs_dvfsrc_devfreq:s0
 
 # Date : 2020/08/21
 # Purpose : allow aee_aedv to access /sys/bus/platform/drivers/systracker node
