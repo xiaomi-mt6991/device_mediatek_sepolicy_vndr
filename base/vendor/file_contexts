@@ -1465,3 +1465,6 @@
 # Virtual Machines
 /dev/pkvm_vendor_mtk_tz                                                                    u:object_r:pkvm_mtk_tz_device:s0
 /vendor/bin/hw/android.hardware.virtualization.capabilities.capabilities_service-mtk_tz    u:object_r:hal_vm_capabilities_default_exec:s0
+
+# Uart
+/(vendor|system/vendor)/bin/uart_launcher u:object_r:uart_launcher_exec:s0
