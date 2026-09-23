@@ -265,6 +265,8 @@ genfscon sysfs /devices/platform/soc/11201000.usb0/udc/11201000.usb0            
 genfscon sysfs /devices/platform/usb0/udc/usb0                                                                      u:object_r:sysfs_usb_nonplat:s0
 genfscon sysfs /devices/platform/usb0/11200000.xhci0/usb1                                                           u:object_r:sysfs_usb_nonplat:s0
 genfscon sysfs /devices/platform/usb0/11200000.xhci0/usb2                                                           u:object_r:sysfs_usb_nonplat:s0
+# Release the boot-leaked mtu3 USB0 wakeup source from init at boot_completed
+genfscon sysfs /devices/platform/soc/16701000.usb0/power/wakeup                                                     u:object_r:sysfs_usb_nonplat:s0
 
 genfscon sysfs /devices/virtual/BOOT/BOOT/boot/boot_mode u:object_r:sysfs_boot_mode:s0
 genfscon sysfs /devices/virtual/BOOT/BOOT/boot/boot_type u:object_r:sysfs_boot_type:s0
